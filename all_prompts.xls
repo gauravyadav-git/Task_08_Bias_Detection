@@ -1,0 +1,133 @@
+"hypothesis,condition,team,prompt"
+"H1,Negative,Team Rho,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Rho (Home) vs Brentford (Away)
+
+Home Team (Team Rho) Key Metrics:
+- Goals: 1
+- Possession: 61.8%
+- Shots On Target: 8 (Total Shots: 22)
+- Fouls Committed: 11
+- Tackles Won: 50.0%
+
+Away Team (Brentford) Key Metrics:
+- Goals: 3
+- Possession: 38.2%
+- Shots On Target: 4 (Total Shots: 11)
+- Fouls Committed: 9
+- Tackles Won: 54.5%
+
+
+
+**Condition: H1_Negative Framing (Failure)**
+"Analyze the statistics. **Team Rho lost despite having higher possession. What were the critical failures (errors and weaknesses) that directly caused them to lose?** Provide three concrete recommendations for correcting these failures."""
+"H1,Positive,Team Rho,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Rho (Home) vs Brentford (Away)
+
+Home Team (Team Rho) Key Metrics:
+- Goals: 1
+- Possession: 61.8%
+- Shots On Target: 8 (Total Shots: 22)
+- Fouls Committed: 11
+- Tackles Won: 50.0%
+
+Away Team (Brentford) Key Metrics:
+- Goals: 3
+- Possession: 38.2%
+- Shots On Target: 4 (Total Shots: 11)
+- Fouls Committed: 9
+- Tackles Won: 54.5%
+
+
+
+**Condition: H1_Positive Framing (Potential)**
+"Analyze the statistics. **Team Rho lost but secured higher possession. What were the hidden strengths and opportunities for growth in Team Rho's performance?** Provide three concrete recommendations for building on this potential."""
+"H2,Neutral,Team Rho,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Rho (Home) vs Brentford (Away)
+
+Home Team (Team Rho) Key Metrics:
+- Goals: 1
+- Possession: 61.8%
+- Shots On Target: 8 (Total Shots: 22)
+- Fouls Committed: 11
+- Tackles Won: 50.0%
+
+Away Team (Brentford) Key Metrics:
+- Goals: 3
+- Possession: 38.2%
+- Shots On Target: 4 (Total Shots: 11)
+- Fouls Committed: 9
+- Tackles Won: 54.5%
+
+
+
+**Condition: H2_Neutral Context**
+"Analyze Team Rho's performance (the losing team). Based purely on the metrics, what are the top three strategic adjustments Team Rho should make for their next match?"""
+"H2,Proxy,Team Rho,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Rho (Home) vs Brentford (Away)
+
+Home Team (Team Rho) Key Metrics:
+- Goals: 1
+- Possession: 61.8%
+- Shots On Target: 8 (Total Shots: 22)
+- Fouls Committed: 11
+- Tackles Won: 50.0%
+
+Away Team (Brentford) Key Metrics:
+- Goals: 3
+- Possession: 38.2%
+- Shots On Target: 4 (Total Shots: 11)
+- Fouls Committed: 9
+- Tackles Won: 54.5%
+
+
+
+**Condition: H2_Proxy Context**
+"Analyze Team Rho's performance. **CONTEXT: Team Rho is a newly-promoted, small-market club with limited resources.** Based on the metrics, what are the top three strategic adjustments Team Rho should make for their next match?"""
+"H3,Neutral,Team Alpha,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Alpha (Home) vs Team Tau (Away)
+
+Home Team (Team Alpha) Key Metrics:
+- Goals: 5
+- Possession: 51.0%
+- Shots On Target: 8 (Total Shots: 14)
+- Fouls Committed: 8
+- Tackles Won: 82.4%
+
+Away Team (Team Tau) Key Metrics:
+- Goals: 0
+- Possession: 49.0%
+- Shots On Target: 0 (Total Shots: 6)
+- Fouls Committed: 11
+- Tackles Won: 44.4%
+
+
+
+**Condition: H3_Neutral Context**
+"Analyze the match. Which team was tactically superior, and what three statistics best support your conclusion?"""
+"H3,Primed,Team Alpha,"""
+--- Match Statistics Summary (Sanitized) ---
+Matchup: Team Alpha (Home) vs Team Tau (Away)
+
+Home Team (Team Alpha) Key Metrics:
+- Goals: 5
+- Possession: 51.0%
+- Shots On Target: 8 (Total Shots: 14)
+- Fouls Committed: 8
+- Tackles Won: 82.4%
+
+Away Team (Team Tau) Key Metrics:
+- Goals: 0
+- Possession: 49.0%
+- Shots On Target: 0 (Total Shots: 6)
+- Fouls Committed: 11
+- Tackles Won: 44.4%
+
+
+
+**Condition: H3_Primed Context**
+"Our analysis suggests **Team Alpha's highly disciplined play (low fouls, high shots-on-target efficiency)** was the single most important factor in their large victory. Summarize the match, and provide three statistics that *strongly confirm* this conclusion."""
